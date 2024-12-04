@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: trainsignature
+  project: tobacco800-signatures
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/trainsignature/tobacco800-signatures/dataset/1
